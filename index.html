@@ -1,0 +1,2039 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sohail's Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-img.jpg" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Sohail Asghar</h1>
+
+          <p class="title expertise-container"> <span class="expertise active"></span></p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" id="mail" class="contact-link">info.sohail.pro@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+923185546469" class="contact-link">+92 318-5546469</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">March 22, 2001</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Karachi, Pakistan</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/sohail-asghar-4068a0247/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/SohailAsgharWorkOfficial" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/sohailasghar1120" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/sohailasghar22/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://web.whatsapp.com/" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certification</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blogs</button>
+          </li>
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+
+        </ul>
+
+      </nav>
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p><span>
+            To pursue a challenging career in a dynamic organization that fosters personal and professional
+            growth. As a Computer Science graduate from AUST with a CGPA of 3.76 and Gold Medalist
+            honors, I bring expertise in front-end and back-end development, specializing in HTML, CSS,
+            JavaScript, React, and Node.js. I am also a SEO and digital marketing expert with experience in
+            Meta Ads, Google Ads, Shopify, and Amazon, focused on optimizing online visibility and driving
+            business growth. Dedicated to continuous learning, I aim to contribute meaningfully to web
+            development and digital marketing.
+          </span>
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/FullStackDevelopment.svg" alt="fullstackdevelopment icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Full Stack Development</h4>
+
+                <p class="service-item-text">
+                  I develop high-quality web applications with a focus on both front-end and back-end technologies.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/shopify.svg
+                " alt="shopify icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Shopify</h4>
+
+                <p class="service-item-text">
+                  I create and manage Shopify stores, optimizing them for performance and user experience.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/amazon.svg" alt="amazon icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Amazon</h4>
+
+                <p class="service-item-text">
+                  I develop and manage Amazon stores, focusing on product listing optimization and sales growth.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Professional development of applications for iOS and Android.
+                </p>
+              </div>
+
+            </li>
+
+
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Reviews</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+        {% comment %} My Team {% endcomment %}
+          <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">My Team</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+             <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Full Stack Developer @ Inventocube</h4>
+              <h3 class="h3 timeline-item-title">Part-time</h3>
+              <span>Jun 2025 - Present</span>
+
+              <p class="timeline-text">
+             
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Social Media Manager @ University Enclave</h4>
+              <h3 class="h3 timeline-item-title">Part-time</h3>
+              <span>May 2025 - June 2025</span>
+
+              <p class="timeline-text">
+               Served as Social Media Manager at The University Enclave, Abbottabad
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Joint CEO @ Lytnetwork</h4>
+              <h3 class="h3 timeline-item-title">Full-time</h3>
+              <span>Jan 2024 - Jun 2025</span>
+
+              <p class="timeline-text">
+                As the Joint CEO of LYTNETWORK, I am responsible for overseeing the company’s strategic direction, operations, and growth.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Full Stack Developer @ Flyingcart.pk</h4>
+              <h3 class="h3 timeline-item-title">Part-time</h3>
+              <span>Nov 2024 - Feb 2025</span>
+
+              <p class="timeline-text">
+                Joined Flying Cart as a Full Stack Developer on 15th November 2024, working remotely. Key
+                responsibilities included developing and maintaining web applications with a focus on full stack
+                development. Successfully navigated the probationary period, showcasing adaptability and
+                technical proficiency in a dynamic work environment.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Shopify Developer @ Hifah Technologies</h4>
+              <h3 class="h3 timeline-item-title">Internship</h3>
+              <span>Dec 2024 — Jan 2025</span>
+
+              <p class="timeline-text">
+                Website Creation, SEO & Site Mapping, Product Listings,
+                Site Security, Domain Linking, Customizable Logos.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Full Stack Developer @ 247 Marketers</h4>
+              <h3 class="h3 timeline-item-title">Full Time</h3>
+              <span>Aug 2024 - Nov 2024</span>
+
+              <p class="timeline-text">
+                Served as a Full Stack Developer at 247 Digital Marketing Abbottabad for 3 months.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Campus Director @ Hult Prize</h4>
+              <h3 class="h3 timeline-item-title">Apprenticeship</h3>
+              <span>Nov 2023 - Nov 2024</span>
+
+              <p class="timeline-text">
+                Served as a Campus Director of Hult Prize at AUST.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web Development lead @ GDSC'23-24</h4>
+              <h3 class="h3 timeline-item-title">Apprenticeship</h3>
+              <span>Oct 2023 - Jun 2024</span>
+
+              <p class="timeline-text">
+                Served as a GDSC Web Lead at my University and did alot of projects and deliver sucessful
+                sessions.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Member MLSA @ Miicrosoft</h4>
+              <h3 class="h3 timeline-item-title">Apprenticeship</h3>
+              <span>May 2023 - April 2024</span>
+
+              <p class="timeline-text">
+                Member of Microsoft Learn Student Ambassador Program from May 2023 to April 2024.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Remote Programming Internship @ AICP</h4>
+              <h3 class="h3 timeline-item-title">Internship</h3>
+              <span>Oct 2023 - Dec 2023</span>
+
+              <p class="timeline-text">
+                Successfully completed an internship under Artificial Intelligence Community of Pakistan & Python Career
+                Trainers for 3 months.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web Development Team Lead Intern @ AUST</h4>
+              <h3 class="h3 timeline-item-title">Internship</h3>
+              <span>Aug 2023 - Oct 2023</span>
+
+              <p class="timeline-text">
+                Did Internship in Web Development at the Directorate of Admission under Student Support Center
+                at Abbottabad University of Science & Technology.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web Development Intern @ TechnoHacks EduTech | Codsoft</h4>
+              <h3 class="h3 timeline-item-title">Internship</h3>
+              <span>Sep 2023 - Oct 2023</span>
+
+              <p class="timeline-text">
+                Sucessfully Completed Web | Python Internships.
+                Git Repo links:
+                https://github.com/SohailAsgharWorkOfficial/TechnoHacksWebInternship2023
+                https://github.com/SohailAsgharWorkOfficial/CodSoftInternship2023
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web Development @ AUST</h4>
+              <h3 class="h3 timeline-item-title">Internship</h3>
+              <span>Aug 2023 - Oct 2023</span>
+
+              <p class="timeline-text">
+                Sucessfully Completed Web Internships.
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Programming Lab-Assistant @ AUST</h4>
+              <h3 class="h3 timeline-item-title">Apprenticeship</h3>
+              <span>Apr 2023 - Sep 2023</span>
+
+              <p class="timeline-text">
+                Served as Database Lab Instructor
+
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Abbottabad University of Science and Technology (AUST)</h4>
+
+              <span>2021 - 2024</span>
+
+              <p class="timeline-text">
+                Bachelor's in Computer Science
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Institute of Computer Languages Abbottabad</h4>
+
+              <span>2022 – 2023</span>
+
+              <p class="timeline-text">
+                Diploma in Information & Technology, Computer Science
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Modern School System Boys College Abbottabad</h4>
+
+              <span>2019 - 2020</span>
+
+              <p class="timeline-text">
+                FSC-Pre Engineering
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">The Educator's Abbottabad Campus</h4>
+
+              <span>2017 - 2018</span>
+
+              <p class="timeline-text">
+                SSC (Matric)
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Achievements</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Winner of FYP Poster 2024</h4>
+
+              <span>Dec 2024</span>
+
+              <p class="timeline-text">
+                Winner of FYP Poster organized by Abbottabad University of Science and
+                Technology
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Winner of Little Entrepreneur Competition 2024</h4>
+
+              <span>Jan 2024</span>
+
+              <p class="timeline-text">
+                Winner of Business Event organized by Entrepreneur Society at Abbottabad University of Science and
+                Technology
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Campus Director Hult Prize @ AUST</h4>
+
+              <span>Dec 2023 - Aug 2024 (9 mos)</span>
+
+              <p class="timeline-text">
+                Served as a Campus Director of Abbottabad University of Science and Technology
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web Development Lead @ GDSC'23-24</h4>
+
+              <span>Oct 2023 - Aug 2024 (10 mos)</span>
+
+              <p class="timeline-text">
+                Served as a Web Development Lead of Google Developers Student Club at Abbottabad University of Science
+                and Technology
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Runnerup of Website Development Competetion 2023 @ Visio Spark</h4>
+
+              <span>Mar 2023</span>
+
+              <p class="timeline-text">
+                Runnerup of Web Development Competition at Visio Spark Comsats University Wah Campus
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Graphic Designing Lead @ GDSC'22-23</h4>
+
+              <span>Oct 2022 - Mar 2023 (6 mos)</span>
+
+              <p class="timeline-text">
+                Served as a Graphic Designing Lead of Google Developers Student Club at Abbottabad University of Science
+                and Technology
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">References</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Noel - Flyingcart.pk
+              </h4>
+
+              <span>HR
+              </span>
+
+              <p class="timeline-text">
+                hr@flyingcart.pk
+              </p>
+
+              <p class="timeline-text">
+                03412099903
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Hifza Kanwal - Hifah Technologies
+
+              </h4>
+
+              <span>CEO
+
+              </span>
+
+              <p class="timeline-text">
+                hifahtechnologiesofficial@gmail.com
+              </p>
+
+              <p class="timeline-text">
+                03281223062
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Usman Khan - 247 Digital Marketing
+
+              </h4>
+
+              <span>CEO
+
+              </span>
+
+              <p class="timeline-text">
+                Usmanatd50@gmail.com
+
+              </p>
+
+              <p class="timeline-text">
+                03460019753
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Dr. Muhammad Naeem - Abbottabad University of Science and Technology
+              </h4>
+
+              <span>Chairman Department of Computer Science
+              </span>
+
+              <p class="timeline-text">
+                Chairman-CS@aust.edu.pk
+              </p>
+
+              <p class="timeline-text">
+                03319356680
+              </p>
+
+            </li>
+
+
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Social Media Marketing: Salesmanship, Digital Marketing, Ads Campaign
+                </h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Nextjs, Angular, Reactjs, React Native</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Development: Html, CSS, Javascript, Web Services API, AWS, API deployment
+                </h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Databases: GQL, Hygrapgh, Mongodb, Nodejs, Php framework, ERD, mySQL, phpmyadmin</h5>
+                <data value="50">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+      
+       
+
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="project">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Shopify</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select cocomo" data-select>
+
+              <div class="select-value" data-select-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item id="">All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Shopify</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://www.arcurdunews.com/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/w-project1.png" alt="arc urdu news " loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ARC URDU NEWS</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://primefhdstream.com/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/w-project2.png" alt="primefhdstream " loading="lazy">
+                </figure>
+
+                <h3 class="project-title">primefhdstream</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://iptvservice24.com/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/w-project3.png" alt="iptvservice24 " loading="lazy">
+                </figure>
+
+                <h3 class="project-title">iptvservice24</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://hrm-project-kappa.vercel.app/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/w-project4.png" alt="HRM Dream Technologies " loading="lazy">
+                </figure>
+
+                <h3 class="project-title">HRM Dream Technologies</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://sohailasgharworkofficial.github.io/Gym-WorkoutStation-Web/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/w-project5.png" alt="Workout Station " loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Workout Station</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://khaoo.vercel.app/?category=all">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/w-project6.png" alt="Khaao " loading="lazy">
+                </figure>
+
+                <h3 class="project-title">KHAAO</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://aust.edu.pk/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/w-project7.png" alt="Abbottabad University of Science & Technologies "
+                    loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Abbottabad University of Science & Technologies</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://sohailasgharworkofficial.github.io/LiveLanguageTranslator.github.io/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/w-project8.png" alt="Language Translator " loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Language Translator</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://sohailasgharworkofficial.github.io/currencyconverterwebapp.github.io/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/w-project9.png" alt="Currency Concerter " loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Currency Connverter</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="shopify">
+              <a href="https://bodynbody.com/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/s-project3.png" alt="bnb " loading="lazy">
+                </figure>
+
+                <h3 class="project-title">BNB</h3>
+
+                <p class="project-category">Shopify</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="shopify">
+              <a href="https://flyingcart.pk/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/s-project1.png" alt="Flyingcart " loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Flyingcart.pk</h3>
+
+                <p class="project-category">Shopify</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="shopify">
+              <a href="https://www.firstcry.sa/en/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="Firstcry " loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Firstcry</h3>
+
+                <p class="project-category">Shopify</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!-- 
+      end
+      -->
+
+      <!--
+        - #CERTIFICATION
+      -->
+
+      <article class="cert" data-page="certification">
+
+        <header>
+          <h2 class="h2 article-title">Certification</h2>
+        </header>
+
+        <section class="cert">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Course</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Competition</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Education</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Internship</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Society</button>
+            </li>
+
+            
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" id="select-cat" data-select-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Course</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Competition</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Education</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Internship</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Society</button>
+              </li>
+
+              
+
+            </ul>
+
+          </div>
+
+          <ul class="cert-list">
+
+            <!-- COURSE -->
+            <li class="cert-item  active" data-filter-item data-category="course">
+              <a href="">
+
+                <figure class="cert-img cert-course">
+                  <div class="cert-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/course-2.png" alt="Java Programming @ ICL" loading="lazy">
+                </figure>
+
+                <h3 class="cert-title">Java Programming @ ICL</h3>
+
+                <p class="cert-category">Course 14 Dec 2022 - 14 Feb 2023 (3 mos)</p>
+
+              </a>
+            </li>
+
+            <li class="cert-item  active" data-filter-item data-category="course">
+              <a href="">
+
+                <figure class="cert-img cert-course">
+                  <div class="cert-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/course-1.png" alt="C | C++ Programming @ ICL" loading="lazy">
+                </figure>
+
+                <h3 class="cert-title">C | C++ Programming @ ICL</h3>
+
+                <p class="cert-category">Course 8 Jun 2022 - 8 Sep 2022 (3 mos)</p>
+
+              </a>
+            </li>
+            <!-- END COURSE -->
+
+            <!-- COMPETITION -->
+            <li class="cert-item  active" data-filter-item data-category="competition">
+              <a href="">
+
+                <figure class="cert-img">
+                  <div class="cert-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/competition-2.png" alt="Little Entrepreneur Competition" loading="lazy">
+                </figure>
+
+                <h3 class="cert-title">Winner of Little Entrepreneur Competition 2024</h3>
+
+                <p class="cert-category">Competition Jan 14, 2024</p>
+
+              </a>
+            </li>
+
+            <li class="cert-item  active" data-filter-item data-category="competition">
+              <a href="">
+
+                <figure class="cert-img">
+                  <div class="cert-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/competition-1.png" alt="19th Visio Spark Competition" loading="lazy">
+                </figure>
+
+                <h3 class="cert-title">Runnerup of Website Development Competetion 2023 @ Visio Spark</h3>
+
+                <p class="cert-category">Competition Mar 18, 2023</p>
+
+              </a>
+            </li>
+            <!-- END COMPETITION -->
+
+            <!-- EDUCATION -->
+            <li class="cert-item  active" data-filter-item data-category="education">
+              <a href="">
+
+                <figure class="cert-img">
+                  <div class="cert-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/education-1.png" alt="Bachelor's in Computer Science" loading="lazy">
+                </figure>
+
+                <h3 class="cert-title">Bachelor's in Computer Science </h3>
+
+                <p class="cert-category">Education 2021 - Present</p>
+
+              </a>
+            </li>
+
+            <li class="cert-item  active" data-filter-item data-category="education">
+              <a href="">
+
+                <figure class="cert-img">
+                  <div class="cert-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/education-2.jpg" alt="Diploma in Information & Technology" loading="lazy">
+                </figure>
+
+                <h3 class="cert-title">Diploma in Information & Technology </h3>
+
+                <p class="cert-category">Education 2022 - 2023</p>
+
+              </a>
+            </li>
+
+            <li class="cert-item  active" data-filter-item data-category="education">
+              <a href="">
+
+                <figure class="cert-img">
+                  <div class="cert-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/education-3.jpg" alt="FSC Pre-Engineering" loading="lazy">
+                </figure>
+
+                <h3 class="cert-title">FSC Pre-Engineering </h3>
+
+                <p class="cert-category">Education 2018 - 2020</p>
+
+              </a>
+            </li>
+
+            <li class="cert-item  active" data-filter-item data-category="education">
+              <a href="">
+
+                <figure class="cert-img">
+                  <div class="cert-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/education-4.jpg" alt="FSC Pre-Engineering" loading="lazy">
+                </figure>
+
+                <h3 class="cert-title">Secondary School Certificate </h3>
+
+                <p class="cert-category">Education 2016 - 2018</p>
+
+              </a>
+            </li>
+            <!-- END EDUCATION -->
+
+
+            <!-- INTERNSHIP -->
+            <li class="cert-item  active" data-filter-item data-category="internship">
+              <a href="">
+
+                <figure class="cert-img">
+                  <div class="cert-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/internship-4.jpg" alt="Campus Director of Hult Prize" loading="lazy">
+                </figure>
+
+                <h3 class="cert-title">Online Coding @ AICP</h3>
+
+                <p class="cert-category">Internship 1 Nov 2023 - 27 Dec 2023 (2 mos)</p>
+
+              </a>
+            </li>
+
+            <li class="cert-item  active" data-filter-item data-category="internship">
+              <a href="">
+
+                <figure class="cert-img">
+                  <div class="cert-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/internship-3.png" alt="Web Development @ Codsoft" loading="lazy">
+                </figure>
+
+                <h3 class="cert-title">Web Development @ Codsoft</h3>
+
+                <p class="cert-category">Internship 25 Sep 2023 - 25 Oct 2023 (1 mo)</p>
+
+              </a>
+            </li>
+
+            <li class="cert-item  active" data-filter-item data-category="internship">
+              <a href="">
+
+                <figure class="cert-img">
+                  <div class="cert-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/internship-2.png" alt="Python Programming @ Codsoft" loading="lazy">
+                </figure>
+
+                <h3 class="cert-title">Python Programming @ Codsoft</h3>
+
+                <p class="cert-category">Internship 25 Sep 2023 - 25 Oct 2023 (1 mo)</p>
+
+              </a>
+            </li>
+
+            <li class="cert-item  active" data-filter-item data-category="internship">
+              <a href="">
+
+                <figure class="cert-img">
+                  <div class="cert-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/internship-1.jpg" alt="Web Development @ TechnoHack" loading="lazy">
+                </figure>
+
+                <h3 class="cert-title">Web Development @ TechnoHacks</h3>
+
+                <p class="cert-category">Internship 20 Sep 2023 - 20 Oct 2023 (1 mo)</p>
+
+              </a>
+            </li>
+
+            <!-- END INTERNSHIP -->
+
+
+            <!-- SOCIETY -->
+            <li class="cert-item  active" data-filter-item data-category="society">
+              <a href="">
+
+                <figure class="cert-img">
+                  <div class="cert-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/society-1.png" alt="Campus Director of Hult Prize" loading="lazy">
+                </figure>
+
+                <h3 class="cert-title">Campus Director Hult Prize @ AUST</h3>
+
+                <p class="cert-category">Society Dec 2023 - Aug 2024 (9 mos)</p>
+
+              </a>
+            </li>
+
+            <li class="cert-item  active" data-filter-item data-category="society">
+              <a href="">
+
+                <figure class="cert-img">
+                  <div class="cert-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/society-2.png" alt="Web Development Lead of GDSC'23-24" loading="lazy">
+                </figure>
+
+                <h3 class="cert-title">Web Development Lead @ GDSC'23-24</h3>
+
+                <p class="cert-category">Society Oct 2023 - Aug 2024 (10 mos)</p>
+
+              </a>
+            </li>
+
+            <!-- END SOCIETY -->
+
+            <!-- MICROSOFT -->
+            <!-- END MICROSOFT -->
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!-- 
+      end
+      -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!--
+        - #BLOGS
+      -->
+
+      <article class="certification" data-page="blogs">
+
+        <header>
+          <h2 class="h2 article-title">Blogs</h2>
+        </header>
+
+        <section class="certification-posts">
+
+          <ul class="certification-posts-list">
+
+            <!-- <li class="certification-post-item">
+              <a href="#">
+
+                <figure class="certification-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Competition in 2023" loading="lazy">
+                  <img src="./assets/images/blog-1.jpg" style="margin-top: 1000px;" alt="Competition in 2023"
+                    loading="lazy">
+
+                </figure>
+
+                <div class="certification-content">
+
+                  <div class="certification-meta">
+                    <p class="certification-category">Competition</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Mar 18, 2023</time>
+                  </div>
+
+                  <h3 class="h3 certification-item-title">19th Visio Spark Competition</h3>
+
+                  <p class="certification-text">
+                    Runner-up of Web Development 19th Visio Spark Competition organized by Comsats University Islamabad
+                    Wah Campus on Mar 118, 2023.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="certification-post-item">
+              <a href="#">
+
+                <figure class="certification-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Little Entrepreneur Competition" loading="lazy">
+                  <img src="./assets/images/blog-1.jpg" style="margin-top: 1000px;"
+                    alt="Little Entrepreneur Competition" loading="lazy">
+                </figure>
+
+                <div class="certification-content">
+
+                  <div class="certification-meta">
+                    <p class="certification-category">Competition</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Jan 14, 2024</time>
+                  </div>
+
+                  <h3 class="h3 certification-item-title">Little Entrepreneur Competition</h3>
+
+                  <p class="certification-text">
+                    Winner of Business Event organized by Entrepreneur Society at Abbottabad University of Science and
+                    Technology.
+                  </p>
+
+                </div>
+
+              </a>
+            </li> -->
+
+            <li class="certification-post-item">
+              <a href="#">
+
+                <figure class="certification-banner-box">
+                  <img src="./assets/images/hp-1.jpg" alt="Campus Director Hult Prize" loading="lazy">
+                  <img src="./assets/images/hp-2.jpg" style="margin-top: 1000px;" alt="Campus Director Hult Prize"
+                    loading="lazy">
+                </figure>
+
+                <div class="certification-content">
+
+                  <div class="certification-meta">
+                    <p class="certification-category">Society</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Dec 19, 2023 - Dec 7, 2024</time>
+                  </div>
+
+                  <h3 class="h3 certification-item-title">Campus Director Hult Prize</h3>
+
+                  <p class="certification-text">
+                    Served as the Campus Director of Hult Prize at Abbottabad University of Science and Technology from
+                    Dec 2023 to Aug 2024.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="certification-post-item">
+              <a href="#">
+
+                <figure class="certification-banner-box">
+                  <img src="./assets/images/gdsci.JPG" alt="Web lead @ GDSC AUST" loading="lazy">
+                  <img src="./assets/images/gdsci-2.JPG" style="margin-top: 1000px;" alt="Web lead @ GDSC AUST"
+                    loading="lazy">
+                </figure>
+
+                <div class="certification-content">
+
+                  <div class="certification-meta">
+                    <p class="certification-category">Society</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Oct 1, 2023 - Aug 12, 2024</time>
+                  </div>
+
+                  <h3 class="h3 certification-item-title">Web lead @ GDSC AUST</h3>
+
+                  <p class="certification-text">
+                    Attending GDSC Dev Fest 2024 Event at Behria University Islamabad
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://maps.google.com/maps?q=Abbottabad+Pakistan&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="from_name" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
