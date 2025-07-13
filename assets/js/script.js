@@ -215,10 +215,10 @@ closeBtn.addEventListener("click", function () {
 
 const expertiseContainer = document.querySelector(".expertise-container");
 const expertiseList = [
-  "Web Developer",
-  "Software Engineer",
-  "App Developer",
-  "Full Stack Developer",
+  "UI/UX Designer",
+  "Graphic Designer",
+  "Web Designer",
+  "App Designer",
 ];
 let currentIndex = 0;
 
