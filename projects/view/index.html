@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link rel="icon" type="image/png" sizes="60x60" href="../../assets/images/fav.png" />
+    <link rel="stylesheet" href="../../assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="project-page">
+    <main>
+      <aside id="project-sidebar" class="sidebar active" data-sidebar></aside>
+
+      <div class="main-content">
+        <nav class="navbar project-navbar" aria-label="Primary">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a class="navbar-link" href="../../index.html#about">About</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="../../index.html#resume">Resume</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link active" href="../../index.html#portfolio">Portfolio</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="../../index.html#certification">Certification</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="../../index.html#blogs">Blogs</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="../../index.html#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <article class="project-detail active">
+          <header class="project-detail__header">
+            <div class="project-detail__top">
+              <a class="project-detail__back" href="../../index.html#portfolio"
+                >&#8592; Back to portfolio</a
+              >
+            </div>
+
+            <div class="project-detail__title">
+              <h2 class="h2 article-title" id="project-title">Project</h2>
+              <p class="project-detail__subtitle" id="project-subtitle"></p>
+            </div>
+
+            <div class="project-detail__media" id="project-media">
+              <button class="project-detail__media-btn" id="project-open-media" type="button">
+                Open preview
+              </button>
+              <img id="project-hero" class="project-detail__hero" alt="" loading="lazy" />
+            </div>
+
+            <div class="project-detail__actions">
+              <a id="project-live" class="form-btn project-action project-action--primary" target="_blank" rel="noopener noreferrer"
+                >Live</a
+              >
+              <a id="project-github" class="form-btn project-action project-action--secondary" target="_blank" rel="noopener noreferrer"
+                >GitHub</a
+              >
+              <a id="project-apk" class="form-btn project-action project-action--secondary">Download APK</a>
+            </div>
+          </header>
+
+          <section class="about-text project-detail__section" id="project-description"></section>
+
+          <section class="project-detail__section" id="project-case-study-section">
+            <h3 class="h3">Case Study</h3>
+            <div class="project-detail__blocks" id="project-sections"></div>
+          </section>
+
+          <section class="project-detail__section" id="project-highlights-section">
+            <h3 class="h3">Highlights</h3>
+            <ul class="project-detail__list" id="project-highlights"></ul>
+          </section>
+
+          <section class="project-detail__section" id="project-features-section">
+            <h3 class="h3">Features</h3>
+            <ul class="project-detail__list" id="project-features"></ul>
+          </section>
+
+          <section class="project-detail__section" id="project-tags-section">
+            <h3 class="h3">Tech</h3>
+            <ul class="project-detail__tags" id="project-tags"></ul>
+          </section>
+
+          <section class="project-detail__section" id="project-gallery-section">
+            <h3 class="h3">Gallery</h3>
+            <div class="project-detail__gallery" id="project-gallery"></div>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <script src="../../assets/js/projects-data.js"></script>
+    <script src="../../assets/js/project-page.js"></script>
+    <script src="../../assets/js/script.js"></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
