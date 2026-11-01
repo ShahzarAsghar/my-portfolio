@@ -234,11 +234,11 @@ if (certItems.length) {
 
 const expertiseContainer = document.querySelector(".expertise-container");
 const expertiseList = [
-  "Full Stack Developer",
-  "Mobile App Developer",
-  "Shopify Developer",
-  "WordPress Developer",
-  "Software Engineer",
+  "UI/UX Designer",
+  "Graphic Designer",
+  "Figma Expert",
+  "Product Designer",
+  "Web Designer",
 ];
 let currentIndex = 0;
 
