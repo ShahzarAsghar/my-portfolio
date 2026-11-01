@@ -846,6 +846,16 @@
           </ul>
 
         </section>
+        <!--
+          - CV button
+        -->
+        <section class="cv-section">
+          <button class="form-btn cv-view-btn" data-cv-open type="button">
+            <ion-icon name="document-text-outline"></ion-icon>
+            <span>View CV</span>
+          </button>
+        </section>
+
       </article>
 
       <!--
@@ -2204,6 +2214,22 @@
       </article>
 
     </div>
+
+  <!-- CV modal -->
+  <div class="cv-modal" data-cv-modal aria-hidden="true">
+    <div class="cv-modal__backdrop" data-cv-close></div>
+    <div class="cv-modal__dialog">
+      <button class="cv-modal__close" data-cv-close aria-label="Close CV">&times;</button>
+      <h2 class="h3 cv-modal__title">My CV</h2>
+      <div class="cv-modal__viewer">
+        <iframe src="./assets/cv/Shahzar-Asghar-CV.pdf" title="CV" loading="lazy"></iframe>
+      </div>
+      <a class="form-btn cv-open-link" href="./assets/cv/Shahzar-Asghar-CV.pdf" target="_blank" rel="noopener noreferrer">
+        <ion-icon name="open-outline"></ion-icon>
+        <span>Open in new tab</span>
+      </a>
+    </div>
+  </div>
 
   </main>
 

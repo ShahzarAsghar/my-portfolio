@@ -423,3 +423,30 @@ document.addEventListener("DOMContentLoaded", () => {
     initBlogPopup();
   }
 });
+
+
+/* CV modal */
+(function () {
+  const modal = document.querySelector("[data-cv-modal]");
+  if (!modal) return;
+  const openers = document.querySelectorAll("[data-cv-open]");
+  const closers = modal.querySelectorAll("[data-cv-close]");
+
+  const open = () => {
+    modal.classList.add("active");
+    modal.setAttribute("aria-hidden", "false");
+    document.body.classList.add("cv-modal-open");
+  };
+
+  const close = () => {
+    modal.classList.remove("active");
+    modal.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("cv-modal-open");
+  };
+
+  openers.forEach((btn) => btn.addEventListener("click", open));
+  closers.forEach((btn) => btn.addEventListener("click", close));
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && modal.classList.contains("active")) close();
+  });
+})();
