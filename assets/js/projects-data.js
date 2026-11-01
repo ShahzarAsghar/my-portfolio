@@ -6,6 +6,32 @@
 // - Put screenshots in `assets/images/` (or elsewhere) and add to `gallery`.
 // - If you have an APK, put it in (example) `assets/apk/YourApp.apk` and set `apkUrl`.
 //
+// Project images are split into sections. Add an `imageSections` array to a
+// project to control them, for example:
+//
+//   imageSections: [
+//     {
+//       title: "Homepage",
+//       description: "Optional short description for this section.",
+//       // Use "scroll" for very tall full-page screenshots. The image is
+//       // capped to a viewport-friendly height and auto-scrolls top to bottom.
+//       layout: "scroll",
+//       images: [
+//         "./assets/images/my-homepage.png",
+//         { src: "./assets/images/my-homepage-2.png", caption: "Hero section" },
+//       ],
+//     },
+//     { title: "Mobile Views", images: [] }, // empty sections show a placeholder
+//   ],
+//
+// You can also enable the scroll preview for a single image inside a normal
+// grid by using an object: { src: "./assets/images/tall-page.png", scroll: true }
+//
+// If `imageSections` is omitted, the page automatically creates starter
+// sections based on the project category (Desktop Views / Mobile Views /
+// UI Details, or App Screens / User Flows / UI Components for apps).
+// The first section uses the existing `gallery` images.
+//
 // Notes:
 // - Keep image urls relative (like `./assets/images/...`) so they work on GitHub Pages sub-paths.
 // - `liveUrl`, `githubUrl`, `apkUrl` are optional.
@@ -47,7 +73,35 @@ window.SOHAIL_PROJECTS = [
       },
     ],
     tech: [],
-    gallery: ["./assets/images/glamurpaints-h.png"],
+    gallery: ["./assets/images/glamurpaints-h.jpeg"],
+    // Example of a project with custom image sections. Replace the empty
+    // arrays with your own image paths when the designs are ready.
+    imageSections: [
+      {
+        title: "Homepage",
+        description: "Hero, product highlights, and the first impression of the brand.",
+        layout: "scroll",
+        images: [
+          {
+            src: "./assets/images/glamurpaints-h.jpeg",
+            caption: "Homepage hero section",
+          },
+        ],
+      },
+      {
+        title: "Inner Pages",
+        description:
+          "Full-length inner page designs. Tall screenshots auto-scroll inside a fixed-height preview.",
+        layout: "scroll",
+        images: [],
+      },
+      {
+        title: "Mobile Views",
+        description: "Responsive layouts across smaller screens.",
+        layout: "scroll",
+        images: [],
+      },
+    ],
     liveUrl: "https://glamurpaints.com",
   },
   {
